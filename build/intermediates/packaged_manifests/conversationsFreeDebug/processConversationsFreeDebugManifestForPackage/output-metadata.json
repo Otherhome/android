@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PACKAGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "au.otherhome",
+  "variantName": "conversationsFreeDebug",
+  "elements": [
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1000803,
+      "versionName": "1.1.8+free",
+      "outputFile": "x86_64/AndroidManifest.xml"
+    }
+  ],
+  "elementType": "File"
+}

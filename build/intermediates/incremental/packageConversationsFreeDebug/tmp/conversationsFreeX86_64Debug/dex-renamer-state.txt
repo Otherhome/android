@@ -1,0 +1,7 @@
+#Fri May 17 08:26:19 ACST 2024
+base.0=/home/otherhome/conver/Conversations/build/intermediates/dex/conversationsFreeDebug/minifyConversationsFreeDebugWithR8/classes.dex
+base.1=/home/otherhome/conver/Conversations/build/intermediates/desugar_lib_dex/conversationsFreeDebug/l8DexDesugarLibConversationsFreeDebug/classes1000.dex
+path.0=classes.dex
+path.1=classes1000.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

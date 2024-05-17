@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "BUNDLE",
+    "kind": "RegularFile"
+  },
+  "applicationId": "au.otherhome",
+  "variantName": "conversationsFreeRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "outputFile": "../../../../../conversationsFree/release/Otherhome-1.1.8-conversations-free-release.aab"
+    }
+  ],
+  "elementType": "File"
+}
