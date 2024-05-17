@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_message_content.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_message_content.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_share_location.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_share_location.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/dialog_create_public_channel.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/dialog_create_public_channel.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_conversation.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_conversation.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_choose_contact.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_choose_contact.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_recording.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_recording.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_channel_discovery.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_channel_discovery.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_message_received.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_message_received.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_share_with.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_share_with.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_import_backup.xml",
+        "source": "eu.siacs.conversations-conversations-56:/layout/activity_import_backup.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_magic_create.xml",
+        "source": "eu.siacs.conversations-conversations-56:/layout/activity_magic_create.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_about.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_about.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_rtp_session.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_rtp_session.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_manage_accounts.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_manage_accounts.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_settings.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_conversations.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_conversations.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_easy_invite.xml",
+        "source": "eu.siacs.conversations-conversations-56:/layout/activity_easy_invite.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_muc_details.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_muc_details.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_media_browser.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_media_browser.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_uri_handler.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_uri_handler.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/dialog_join_conference.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/dialog_join_conference.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_search.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_search.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_user_preview.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_user_preview.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_message_date_bubble.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_message_date_bubble.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/dialog_create_conference.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/dialog_create_conference.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/fragment_conversation.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/fragment_conversation.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_trust_keys.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_trust_keys.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_contact_details.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_contact_details.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/fragment_conversations_overview.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/fragment_conversations_overview.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_publish_profile_picture.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_publish_profile_picture.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/keys_card.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/keys_card.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_pick_server.xml",
+        "source": "eu.siacs.conversations-conversations-56:/layout/activity_pick_server.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_start_conversation.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_start_conversation.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/contact_key.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/contact_key.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_message_rtp_session.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_message_rtp_session.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_media_preview.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_media_preview.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_change_password.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_muc_users.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_muc_users.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_edit_account.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_edit_account.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_contact.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_contact.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_media.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_media.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_message_sent.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/dialog_presence.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/dialog_presence.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_show_location.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/activity_show_location.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/dialog_enter_password.xml",
+        "source": "eu.siacs.conversations-conversations-56:/layout/dialog_enter_password.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/dialog_block_contact.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/dialog_block_contact.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_channel_discovery.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_channel_discovery.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/dialog_quickedit.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/dialog_quickedit.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_account.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_account.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/item_message_status.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/item_message_status.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/activity_welcome.xml",
+        "source": "eu.siacs.conversations-conversations-56:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "eu.siacs.conversations-mergeConversationsFreeDebugResources-53:/layout/dialog_enter_jid.xml",
+        "source": "eu.siacs.conversations-main-61:/layout/dialog_enter_jid.xml"
+    }
+]

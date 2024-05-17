@@ -1,0 +1,1193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="au.otherhome"
+4    android:versionCode="1000800"
+5    android:versionName="1.1.8+free" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:4:5-72
+11-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:4:22-69
+12    <uses-permission android:name="android.permission.READ_PROFILE" />
+12-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:5:5-71
+12-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+13-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:7:5-76
+13-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+14-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:8:5-75
+14-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:8:22-72
+15    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
+15-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:9:5-89
+15-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:9:22-87
+16    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+16-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:10:5-75
+16-->/home/otherhome/conver/Conversations/src/free/AndroidManifest.xml:10:22-72
+17    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+17-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:5:5-76
+17-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:5:22-73
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:6:5-81
+18-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:6:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:7:5-80
+19-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:7:22-77
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:8:5-67
+20-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:8:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:9:5-79
+21-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:9:22-76
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:10:5-68
+22-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:10:22-65
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:11:5-81
+23-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:11:22-78
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:12:5-66
+24-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:12:22-63
+25    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+25-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:13:5-95
+25-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:13:22-92
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:14:5-81
+26-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:14:22-78
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:15:5-79
+27-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:15:22-76
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:16:5-76
+28-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:16:22-73
+29
+30    <uses-feature
+30-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:19:5-21:36
+31        android:name="android.hardware.location"
+31-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:20:9-49
+32        android:required="false" />
+32-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:21:9-33
+33    <uses-feature
+33-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:22:5-24:36
+34        android:name="android.hardware.location.gps"
+34-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:23:9-53
+35        android:required="false" />
+35-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:24:9-33
+36    <uses-feature
+36-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:25:5-27:36
+37        android:name="android.hardware.location.network"
+37-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:26:9-57
+38        android:required="false" />
+38-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:27:9-33
+39
+40    <uses-permission android:name="android.permission.CAMERA" />
+40-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:29:5-65
+40-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:29:22-62
+41    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+41-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:30:5-71
+41-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:30:22-68
+42    <uses-permission android:name="android.permission.BLUETOOTH" />
+42-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:31:5-68
+42-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:31:22-65
+43    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+43-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:32:5-80
+43-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:32:22-77
+44    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+44-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:33:5-81
+44-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:33:22-78
+45    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+45-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:34:5-78
+45-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:34:22-75
+46    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+46-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:35:5-77
+46-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:35:22-74
+47    <!--
+48    New permissions required to run as foreground service on Android 14.
+49            SYSTEM_EXEMPTED is used when the app is on the doze allow list. This is normal
+50            and the expected default behaviour. The other two hijack RECORD_AUDIO and CAMERA if they
+51            happen to be granted.
+52    -->
+53    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+53-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:41:5-77
+53-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:41:22-74
+54    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED" />
+54-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:42:5-93
+54-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:42:22-90
+55    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+55-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:45:5-75
+55-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:45:22-72
+56
+57    <uses-feature
+57-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:47:5-49:36
+58        android:name="android.hardware.camera"
+58-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:48:9-47
+59        android:required="false" />
+59-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:49:9-33
+60    <uses-feature
+60-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:50:5-52:36
+61        android:name="android.hardware.camera.autofocus"
+61-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:51:9-57
+62        android:required="false" />
+62-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:52:9-33
+63    <uses-feature
+63-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:54:5-56:36
+64        android:name="android.hardware.microphone"
+64-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:55:9-51
+65        android:required="false" />
+65-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:56:9-33
+66
+67    <queries>
+67-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:58:5-78:15
+68        <package android:name="org.sufficientlysecure.keychain" />
+68-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:59:9-67
+68-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:59:18-64
+69        <package android:name="org.torproject.android" />
+69-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:60:9-58
+69-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:60:18-55
+70
+71        <intent>
+71-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:62:9-64:18
+72            <action android:name="eu.siacs.conversations.location.request" />
+72-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:63:13-78
+72-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:63:21-75
+73        </intent>
+74        <intent>
+74-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:65:9-67:18
+75            <action android:name="eu.siacs.conversations.location.show" />
+75-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:66:13-75
+75-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:66:21-72
+76        </intent>
+77        <intent>
+77-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:68:9-71:18
+78            <action android:name="android.intent.action.VIEW" />
+78-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:13-65
+78-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:21-62
+79
+80            <data android:mimeType="resource/folder" />
+80-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+80-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:19-53
+81        </intent>
+82        <intent>
+82-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:72:9-74:18
+83            <action android:name="android.intent.action.VIEW" />
+83-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:13-65
+83-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:21-62
+84        </intent>
+85        <intent>
+85-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:75:9-77:18
+86            <action android:name="org.unifiedpush.android.connector.MESSAGE" />
+86-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:76:13-80
+86-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:76:21-77
+87        </intent>
+88    </queries> <!-- for android -->
+89    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+90    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+91    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+92    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+93    <!-- for Samsung -->
+94    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+94-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+94-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+95    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+95-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+95-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+96    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+96-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+96-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+97    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+97-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+97-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+98    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+98-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+98-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+99    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+99-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+99-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+100    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+100-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+100-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+101    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+101-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+101-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+102    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+102-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+102-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+103    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+103-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+103-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+104    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+104-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+104-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+105    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+105-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+105-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+106    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+106-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+106-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+107    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+107-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+107-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+108    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+108-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+108-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+109    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+109-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+109-->[me.leolin:ShortcutBadger:1.1.22] /home/otherhome/.gradle/caches/transforms-4/37ac7a54e7e83072d9072b4344d10cf2/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+110
+111    <supports-screens
+111-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:11:5-14:40
+112        android:anyDensity="true"
+112-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:12:9-34
+113        android:largeScreens="true"
+113-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:13:9-36
+114        android:normalScreens="true" />
+114-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:14:9-37
+115
+116    <uses-feature
+116-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:22:5-24:36
+117        android:name="android.hardware.telephony"
+117-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:23:9-50
+118        android:required="false" />
+118-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:24:9-33
+119    <uses-feature
+119-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:25:5-27:36
+120        android:name="android.hardware.wifi"
+120-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:26:9-45
+121        android:required="false" />
+121-->[org.osmdroid:osmdroid-android:6.1.11] /home/otherhome/.gradle/caches/transforms-4/d921112ea1a34aa90f0e388822695263/transformed/jetified-osmdroid-android-6.1.11/AndroidManifest.xml:27:9-33
+122
+123    <permission
+123-->[androidx.core:core:1.9.0] /home/otherhome/.gradle/caches/transforms-4/2945c58d68b669b20dc49ae72d0053f8/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+124        android:name="au.otherhome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+124-->[androidx.core:core:1.9.0] /home/otherhome/.gradle/caches/transforms-4/2945c58d68b669b20dc49ae72d0053f8/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+125        android:protectionLevel="signature" />
+125-->[androidx.core:core:1.9.0] /home/otherhome/.gradle/caches/transforms-4/2945c58d68b669b20dc49ae72d0053f8/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+126
+127    <uses-permission android:name="au.otherhome.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+127-->[androidx.core:core:1.9.0] /home/otherhome/.gradle/caches/transforms-4/2945c58d68b669b20dc49ae72d0053f8/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+127-->[androidx.core:core:1.9.0] /home/otherhome/.gradle/caches/transforms-4/2945c58d68b669b20dc49ae72d0053f8/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+128
+129    <application
+129-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:81:5-391:19
+130        android:name="eu.siacs.conversations.Conversations"
+130-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:82:9-38
+131        android:allowBackup="true"
+131-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:83:9-35
+132        android:appCategory="social"
+132-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:84:9-37
+133        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+133-->[androidx.core:core:1.9.0] /home/otherhome/.gradle/caches/transforms-4/2945c58d68b669b20dc49ae72d0053f8/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+134        android:dataExtractionRules="@xml/data_extraction_rules"
+134-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:85:9-65
+135        android:extractNativeLibs="false"
+136        android:fullBackupContent="@xml/backup_content"
+136-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:86:9-56
+137        android:hardwareAccelerated="true"
+137-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:87:9-43
+138        android:icon="@mipmap/new_launcher"
+138-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:88:9-44
+139        android:label="@string/app_name"
+139-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:89:9-41
+140        android:largeHeap="true"
+140-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:90:9-33
+141        android:localeConfig="@xml/locales_config"
+141-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:91:9-51
+142        android:networkSecurityConfig="@xml/network_security_configuration"
+142-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:92:9-76
+143        android:preserveLegacyExternalStorage="true"
+143-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:93:9-53
+144        android:requestLegacyExternalStorage="true"
+144-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:94:9-52
+145        android:theme="@style/Theme.Conversations3" >
+145-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:95:9-52
+146        <activity
+146-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:5:9-9:47
+147            android:name="eu.siacs.conversations.ui.ManageAccountActivity"
+147-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:6:13-53
+148            android:label="@string/title_activity_manage_accounts"
+148-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:7:13-67
+149            android:launchMode="singleTask"
+149-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:9:13-44
+150            android:theme="@style/Theme.Conversations3" />
+150-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:8:13-56
+151        <activity
+151-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:10:9-13:47
+152            android:name="eu.siacs.conversations.ui.WelcomeActivity"
+152-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:11:13-47
+153            android:label="@string/app_name"
+153-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:12:13-45
+154            android:launchMode="singleTask" />
+154-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:13:13-44
+155        <activity
+155-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:14:9-17:47
+156            android:name="eu.siacs.conversations.ui.PickServerActivity"
+156-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:15:13-50
+157            android:label="@string/create_new_account"
+157-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:16:13-55
+158            android:launchMode="singleTask" />
+158-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:17:13-44
+159        <activity
+159-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:18:9-21:47
+160            android:name="eu.siacs.conversations.ui.MagicCreateActivity"
+160-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:19:13-51
+161            android:label="@string/create_new_account"
+161-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:20:13-55
+162            android:launchMode="singleTask" />
+162-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:21:13-44
+163        <activity
+163-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:22:9-25:47
+164            android:name="eu.siacs.conversations.ui.EasyOnboardingInviteActivity"
+164-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:23:13-60
+165            android:label="@string/invite_to_app"
+165-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:24:13-50
+166            android:launchMode="singleTask" />
+166-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:25:13-44
+167        <activity
+167-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:26:9-30:47
+168            android:name="eu.siacs.conversations.ui.ImportBackupActivity"
+168-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:27:13-52
+169            android:exported="false"
+169-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:28:13-37
+170            android:label="@string/restore_backup"
+170-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:29:13-51
+171            android:launchMode="singleTask" />
+171-->/home/otherhome/conver/Conversations/src/conversations/AndroidManifest.xml:30:13-44
+172
+173        <meta-data
+173-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:98:9-100:59
+174            android:name="com.google.android.gms.car.application"
+174-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:99:13-66
+175            android:resource="@xml/automotive_app_desc" /> <!-- The warning that systemExempted requires alarm permission is incorrect because doze white list is sufficient -->
+175-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:100:13-56
+176        <service
+176-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:103:9-111:19
+177            android:name="eu.siacs.conversations.services.XmppConnectionService"
+177-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:104:13-59
+178            android:exported="false"
+178-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:105:13-37
+179            android:foregroundServiceType="specialUse|systemExempted|microphone|camera" >
+179-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:106:13-88
+180            <property
+180-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:108:13-110:43
+181                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+181-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:109:17-76
+182                android:value="xmpp-im" />
+182-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:110:17-40
+183        </service>
+184        <service
+184-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:113:9-116:34
+185            android:name="androidx.work.impl.foreground.SystemForegroundService"
+185-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:114:13-81
+186            android:directBootAware="false"
+186-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+187            android:enabled="@bool/enable_system_foreground_service_default"
+187-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+188            android:exported="false"
+188-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+189            android:foregroundServiceType="dataSync" />
+189-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:115:13-53
+190        <service
+190-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:118:9-121:56
+191            android:name="eu.siacs.conversations.services.ImportBackupService"
+191-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:119:13-57
+192            android:exported="false"
+192-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:120:13-37
+193            android:foregroundServiceType="dataSync" />
+193-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:121:13-53
+194        <service
+194-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:122:9-129:19
+195            android:name="eu.siacs.conversations.services.ContactChooserTargetService"
+195-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:123:13-65
+196            android:exported="true"
+196-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:124:13-36
+197            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
+197-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:125:13-80
+198            <intent-filter>
+198-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:126:13-128:29
+199                <action android:name="android.service.chooser.ChooserTargetService" />
+199-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:127:17-87
+199-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:127:25-84
+200            </intent-filter>
+201        </service>
+202        <service
+202-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:131:9-138:19
+203            android:name="eu.siacs.conversations.services.CallIntegrationConnectionService"
+203-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:132:13-70
+204            android:exported="true"
+204-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:133:13-36
+205            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+205-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:134:13-84
+206            <intent-filter>
+206-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:135:13-137:29
+207                <action android:name="android.telecom.ConnectionService" />
+207-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:136:17-76
+207-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:136:25-73
+208            </intent-filter>
+209        </service>
+210
+211        <receiver
+211-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:140:9-142:40
+212            android:name="eu.siacs.conversations.receiver.WorkManagerEventReceiver"
+212-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:141:13-62
+213            android:exported="false" />
+213-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:142:13-37
+214        <receiver
+214-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:144:9-156:20
+215            android:name="eu.siacs.conversations.receiver.SystemEventReceiver"
+215-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:145:13-57
+216            android:exported="false" >
+216-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:146:13-37
+217            <intent-filter>
+217-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:147:13-155:29
+218                <action android:name="android.intent.action.BOOT_COMPLETED" />
+218-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:148:17-79
+218-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:148:25-76
+219                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+219-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:149:17-84
+219-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:149:25-81
+220                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+220-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:150:17-152:50
+220-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:151:21-72
+221                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+221-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:153:17-80
+221-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:153:25-77
+222                <action android:name="android.media.RINGER_MODE_CHANGED" />
+222-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:154:17-76
+222-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:154:25-73
+223            </intent-filter>
+224        </receiver>
+225        <receiver
+225-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:158:9-173:20
+226            android:name="eu.siacs.conversations.receiver.UnifiedPushDistributor"
+226-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:159:13-60
+227            android:enabled="false"
+227-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:160:13-36
+228            android:exported="true" >
+228-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:161:13-36
+229            <intent-filter>
+229-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:162:13-168:29
+230                <action android:name="org.unifiedpush.android.distributor.REGISTER" />
+230-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:163:17-87
+230-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:163:25-84
+231                <action android:name="org.unifiedpush.android.distributor.UNREGISTER" />
+231-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:164:17-89
+231-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:164:25-86
+232                <action android:name="org.unifiedpush.android.distributor.feature.BYTES_MESSAGE" />
+232-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:165:17-100
+232-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:165:25-97
+233                <action android:name="org.unifiedpush.android.distributor.feature.MESSENGER" />
+233-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:166:17-96
+233-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:166:25-93
+234                <action android:name="org.unifiedpush.android.distributor.feature.APP_VALIDATION" />
+234-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:167:17-101
+234-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:167:25-98
+235            </intent-filter>
+236            <intent-filter>
+236-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:169:13-172:29
+237                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED" />
+237-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:170:17-86
+237-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:170:25-83
+238
+239                <data android:scheme="package" />
+239-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+240            </intent-filter>
+241        </receiver>
+242
+243        <activity
+243-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:175:9-177:69
+244            android:name="eu.siacs.conversations.ui.ShareLocationActivity"
+244-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:176:13-53
+245            android:label="@string/title_activity_share_location" />
+245-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:177:13-66
+246        <activity
+246-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:178:9-180:55
+247            android:name="eu.siacs.conversations.ui.SearchActivity"
+247-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:179:13-46
+248            android:label="@string/search_messages" />
+248-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:180:13-52
+249        <activity
+249-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:181:9-184:66
+250            android:name="eu.siacs.conversations.ui.RecordingActivity"
+250-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:182:13-49
+251            android:configChanges="orientation|screenSize"
+251-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:183:13-59
+252            android:theme="@style/Theme.Conversations3.Dialog" />
+252-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:184:13-63
+253        <activity
+253-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:185:9-187:68
+254            android:name="eu.siacs.conversations.ui.ShowLocationActivity"
+254-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:186:13-52
+255            android:label="@string/title_activity_show_location" />
+255-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:187:13-65
+256        <activity
+256-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:188:9-196:20
+257            android:name="eu.siacs.conversations.ui.ConversationActivity"
+257-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:189:13-52
+258            android:exported="true"
+258-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:190:13-36
+259            android:theme="@style/Theme.Conversations3.SplashScreen" >
+259-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:191:13-69
+260            <intent-filter>
+260-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:192:13-195:29
+261                <action android:name="android.intent.action.MAIN" />
+261-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:193:17-69
+261-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:193:25-66
+262
+263                <category android:name="android.intent.category.LAUNCHER" />
+263-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:194:17-77
+263-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:194:27-74
+264            </intent-filter>
+265        </activity>
+266        <activity
+266-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:197:9-202:57
+267            android:name="eu.siacs.conversations.ui.ConversationsActivity"
+267-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:198:13-53
+268            android:launchMode="singleTask"
+268-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:199:13-44
+269            android:minHeight="300dp"
+269-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:201:13-38
+270            android:minWidth="300dp"
+270-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:200:13-37
+271            android:windowSoftInputMode="stateHidden" />
+271-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:202:13-54
+272        <activity
+272-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:203:9-207:63
+273            android:name="eu.siacs.conversations.ui.ScanActivity"
+273-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:204:13-44
+274            android:screenOrientation="portrait"
+274-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:205:13-49
+275            android:theme="@style/Theme.Conversations3.FullScreen"
+275-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:206:13-67
+276            android:windowSoftInputMode="stateAlwaysHidden" />
+276-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:207:13-60
+277        <activity
+277-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:208:9-246:20
+278            android:name="eu.siacs.conversations.ui.UriHandlerActivity"
+278-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:209:13-50
+279            android:exported="true" >
+279-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:210:13-36
+280            <intent-filter>
+280-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:211:13-218:29
+281                <action android:name="android.intent.action.VIEW" />
+281-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:13-65
+281-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:21-62
+282
+283                <category android:name="android.intent.category.DEFAULT" />
+283-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:17-76
+283-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:27-73
+284                <category android:name="android.intent.category.BROWSABLE" />
+284-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:215:17-78
+284-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:215:27-75
+285
+286                <data android:scheme="xmpp" />
+286-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+287            </intent-filter>
+288            <intent-filter android:autoVerify="true" >
+288-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:219:13-229:29
+288-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:219:28-53
+289                <action android:name="android.intent.action.VIEW" />
+289-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:13-65
+289-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:21-62
+290
+291                <category android:name="android.intent.category.DEFAULT" />
+291-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:17-76
+291-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:27-73
+292                <category android:name="android.intent.category.BROWSABLE" />
+292-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:215:17-78
+292-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:215:27-75
+293
+294                <data android:scheme="https" />
+294-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+295                <data android:host="conversations.im" />
+295-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+296                <data android:pathPrefix="/i/" />
+296-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+297                <data android:pathPrefix="/j/" />
+297-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+298            </intent-filter>
+299            <intent-filter>
+299-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:230:13-237:29
+300                <action android:name="android.intent.action.SENDTO" />
+300-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:231:17-71
+300-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:231:25-68
+301
+302                <category android:name="android.intent.category.DEFAULT" />
+302-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:17-76
+302-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:27-73
+303
+304                <data android:scheme="imto" />
+304-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+305                <data android:host="jabber" />
+305-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+306            </intent-filter>
+307            <intent-filter>
+307-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:238:13-245:29
+308                <action android:name="android.intent.action.SENDTO" />
+308-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:231:17-71
+308-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:231:25-68
+309
+310                <category android:name="android.intent.category.DEFAULT" />
+310-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:17-76
+310-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:27-73
+311
+312                <data android:scheme="imto" />
+312-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+313                <data android:host="xmpp" />
+313-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+314            </intent-filter>
+315        </activity>
+316        <activity
+316-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:247:9-255:20
+317            android:name="eu.siacs.conversations.ui.StartConversationActivity"
+317-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:248:13-57
+318            android:exported="true"
+318-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:249:13-36
+319            android:label="@string/title_activity_new_chat"
+319-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:250:13-60
+320            android:launchMode="singleTop" >
+320-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:251:13-43
+321            <intent-filter>
+321-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:252:13-254:29
+322                <action android:name="android.intent.action.VIEW" />
+322-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:13-65
+322-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:69:21-62
+323            </intent-filter>
+324        </activity>
+325        <activity
+325-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:256:9-264:20
+326            android:name="eu.siacs.conversations.ui.activity.SettingsActivity"
+326-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:257:13-57
+327            android:exported="true"
+327-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:258:13-36
+328            android:label="@string/title_activity_settings" >
+328-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:259:13-60
+329            <intent-filter>
+329-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:260:13-263:29
+330                <action android:name="android.intent.action.MAIN" />
+330-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:193:17-69
+330-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:193:25-66
+331
+332                <category android:name="android.intent.category.NOTIFICATION_PREFERENCES" />
+332-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:262:17-93
+332-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:262:27-90
+333            </intent-filter>
+334        </activity>
+335        <activity
+335-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:265:9-267:69
+336            android:name="eu.siacs.conversations.ui.ChooseContactActivity"
+336-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:266:13-53
+337            android:label="@string/title_activity_choose_contact" />
+337-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:267:13-66
+338        <activity
+338-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:268:9-270:65
+339            android:name="eu.siacs.conversations.ui.BlocklistActivity"
+339-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:269:13-49
+340            android:label="@string/title_activity_block_list" />
+340-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:270:13-62
+341        <activity
+341-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:271:9-273:65
+342            android:name="eu.siacs.conversations.ui.ChangePasswordActivity"
+342-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:272:13-54
+343            android:label="@string/change_password_on_server" />
+343-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:273:13-62
+344        <activity
+344-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:274:9-285:20
+345            android:name="eu.siacs.conversations.ui.ChooseAccountForProfilePictureActivity"
+345-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:275:13-70
+346            android:enabled="false"
+346-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:276:13-36
+347            android:exported="true"
+347-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:277:13-36
+348            android:label="@string/choose_account" >
+348-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:278:13-51
+349            <intent-filter android:label="@string/set_profile_picture" >
+349-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:279:13-284:29
+349-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:279:28-71
+350                <action android:name="android.intent.action.ATTACH_DATA" />
+350-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:280:17-76
+350-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:280:25-73
+351
+352                <category android:name="android.intent.category.DEFAULT" />
+352-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:17-76
+352-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:27-73
+353
+354                <data android:mimeType="image/*" />
+354-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+354-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:19-53
+355            </intent-filter>
+356        </activity>
+357        <activity
+357-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:286:9-289:46
+358            android:name="eu.siacs.conversations.ui.ShareViaAccountActivity"
+358-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:287:13-55
+359            android:label="@string/title_activity_share_via_account"
+359-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:288:13-69
+360            android:launchMode="singleTop" />
+360-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:289:13-43
+361        <activity
+361-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:290:9-294:70
+362            android:name="eu.siacs.conversations.ui.EditAccountActivity"
+362-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:291:13-51
+363            android:exported="false"
+363-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:292:13-37
+364            android:launchMode="singleTop"
+364-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:293:13-43
+365            android:windowSoftInputMode="stateHidden|adjustResize" />
+365-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:294:13-67
+366        <activity
+366-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:295:9-298:57
+367            android:name="eu.siacs.conversations.ui.ConferenceDetailsActivity"
+367-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:296:13-57
+368            android:label="@string/action_muc_details"
+368-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:297:13-55
+369            android:windowSoftInputMode="stateHidden" />
+369-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:298:13-54
+370        <activity
+370-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:299:9-301:57
+371            android:name="eu.siacs.conversations.ui.ContactDetailsActivity"
+371-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:300:13-54
+372            android:windowSoftInputMode="stateHidden" />
+372-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:301:13-54
+373        <activity
+373-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:302:9-305:57
+374            android:name="eu.siacs.conversations.ui.PublishProfilePictureActivity"
+374-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:303:13-61
+375            android:label="@string/mgmt_account_publish_avatar"
+375-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:304:13-64
+376            android:windowSoftInputMode="stateHidden" />
+376-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:305:13-54
+377        <activity
+377-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:306:9-308:57
+378            android:name="eu.siacs.conversations.ui.PublishGroupChatProfilePictureActivity"
+378-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:307:13-70
+379            android:label="@string/group_chat_avatar" />
+379-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:308:13-54
+380        <activity
+380-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:309:9-336:20
+381            android:name="eu.siacs.conversations.ui.ShareWithActivity"
+381-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:310:13-49
+382            android:exported="true"
+382-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:311:13-36
+383            android:launchMode="singleTop" >
+383-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:312:13-43
+384            <intent-filter>
+384-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:314:13-321:29
+385                <action android:name="android.intent.action.SEND" />
+385-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:315:17-69
+385-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:315:25-66
+386                <action android:name="android.intent.action.SEND_MULTIPLE" />
+386-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:316:17-78
+386-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:316:25-75
+387
+388                <category android:name="android.intent.category.DEFAULT" />
+388-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:17-76
+388-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:27-73
+389
+390                <data android:mimeType="text/plain" />
+390-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+390-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:19-53
+391            </intent-filter>
+392            <intent-filter>
+392-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:323:13-330:29
+393                <action android:name="android.intent.action.SEND" />
+393-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:315:17-69
+393-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:315:25-66
+394                <action android:name="android.intent.action.SEND_MULTIPLE" />
+394-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:316:17-78
+394-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:316:25-75
+395
+396                <category android:name="android.intent.category.DEFAULT" />
+396-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:17-76
+396-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:214:27-73
+397
+398                <data android:mimeType="*/*" />
+398-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:13-56
+398-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:70:19-53
+399            </intent-filter>
+400
+401            <!-- the value here needs to be the full class name; independent of the configured applicationId -->
+402            <meta-data
+402-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:333:13-335:95
+403                android:name="android.service.chooser.chooser_target_service"
+403-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:334:17-78
+404                android:value="eu.siacs.conversations.services.ContactChooserTargetService" />
+404-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:335:17-92
+405        </activity>
+406        <activity
+406-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:337:9-340:63
+407            android:name="eu.siacs.conversations.ui.TrustKeysActivity"
+407-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:338:13-49
+408            android:label="@string/trust_omemo_fingerprints"
+408-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:339:13-61
+409            android:windowSoftInputMode="stateAlwaysHidden" />
+409-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:340:13-60
+410        <activity
+410-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:341:9-347:20
+411            android:name="eu.siacs.conversations.ui.AboutActivity"
+411-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:342:13-45
+412            android:parentActivityName="eu.siacs.conversations.ui.SettingsActivity" >
+412-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:343:13-62
+413            <meta-data
+413-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:344:13-346:78
+414                android:name="android.support.PARENT_ACTIVITY"
+414-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:345:17-63
+415                android:value="eu.siacs.conversations.ui.SettingsActivity" />
+415-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:346:17-75
+416        </activity>
+417        <activity
+417-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:348:9-350:59
+418            android:name="com.canhub.cropper.CropImageActivity"
+418-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:349:13-64
+419            android:theme="@style/Base.Theme.AppCompat" />
+419-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:350:13-56
+420        <activity android:name="eu.siacs.conversations.ui.MemorizingActivity" />
+420-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:351:9-59
+420-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:351:19-56
+421        <activity
+421-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:353:9-355:53
+422            android:name="eu.siacs.conversations.ui.MediaBrowserActivity"
+422-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:354:13-52
+423            android:label="@string/media_browser" />
+423-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:355:13-50
+424
+425        <provider
+426            android:name="androidx.core.content.FileProvider"
+427            android:authorities="au.otherhome.files"
+428            android:exported="false"
+429            android:grantUriPermissions="true" >
+430            <meta-data
+430-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:17:13-19:62
+431                android:name="android.support.FILE_PROVIDER_PATHS"
+431-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:18:17-67
+432                android:resource="@xml/file_paths" />
+432-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:19:17-59
+433        </provider>
+434        <provider
+435            android:name="eu.siacs.conversations.services.BarcodeProvider"
+436            android:authorities="au.otherhome.barcodes"
+437            android:exported="false"
+438            android:grantUriPermissions="true" />
+439
+440        <activity
+440-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:372:9-379:20
+441            android:name="eu.siacs.conversations.ui.ShortcutActivity"
+441-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:373:13-48
+442            android:exported="true"
+442-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:374:13-36
+443            android:label="@string/contact" >
+443-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:375:13-44
+444            <intent-filter>
+444-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:376:13-378:29
+445                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+445-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:377:17-80
+445-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:377:25-77
+446            </intent-filter>
+447        </activity>
+448        <activity
+448-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:380:9-382:58
+449            android:name="eu.siacs.conversations.ui.MucUsersActivity"
+449-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:381:13-48
+450            android:label="@string/group_chat_members" />
+450-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:382:13-55
+451        <activity
+451-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:383:9-385:57
+452            android:name="eu.siacs.conversations.ui.ChannelDiscoveryActivity"
+452-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:384:13-56
+453            android:label="@string/discover_channels" />
+453-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:385:13-54
+454        <activity
+454-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:386:9-390:55
+455            android:name="eu.siacs.conversations.ui.RtpSessionActivity"
+455-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:387:13-50
+456            android:autoRemoveFromRecents="true"
+456-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:388:13-49
+457            android:launchMode="singleInstance"
+457-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:389:13-48
+458            android:supportsPictureInPicture="true" />
+458-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:390:13-52
+459
+460        <provider
+460-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:12:9-20:20
+461            android:name="com.canhub.cropper.CropFileProvider"
+461-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:13:13-63
+462            android:authorities="au.otherhome.cropper.fileprovider"
+462-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:14:13-72
+463            android:exported="false"
+463-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:15:13-37
+464            android:grantUriPermissions="true" >
+464-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:16:13-47
+465            <meta-data
+465-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:17:13-19:62
+466                android:name="android.support.FILE_PROVIDER_PATHS"
+466-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:18:17-67
+467                android:resource="@xml/library_file_paths" />
+467-->[com.github.CanHub:Android-Image-Cropper:2.0.0] /home/otherhome/.gradle/caches/transforms-4/0e345185c1c7e24b8274644ee89573d5/transformed/jetified-Android-Image-Cropper-2.0.0/AndroidManifest.xml:19:17-59
+468        </provider>
+469        <provider
+469-->[androidx.emoji2:emoji2:1.4.0] /home/otherhome/.gradle/caches/transforms-4/cd8a5bc496cd1d80b7a9143d29467cb4/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+470            android:name="androidx.startup.InitializationProvider"
+470-->[androidx.emoji2:emoji2:1.4.0] /home/otherhome/.gradle/caches/transforms-4/cd8a5bc496cd1d80b7a9143d29467cb4/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+471            android:authorities="au.otherhome.androidx-startup"
+471-->[androidx.emoji2:emoji2:1.4.0] /home/otherhome/.gradle/caches/transforms-4/cd8a5bc496cd1d80b7a9143d29467cb4/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+472            android:exported="false" >
+472-->[androidx.emoji2:emoji2:1.4.0] /home/otherhome/.gradle/caches/transforms-4/cd8a5bc496cd1d80b7a9143d29467cb4/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+473            <meta-data
+473-->[androidx.emoji2:emoji2:1.4.0] /home/otherhome/.gradle/caches/transforms-4/cd8a5bc496cd1d80b7a9143d29467cb4/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+474                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+474-->[androidx.emoji2:emoji2:1.4.0] /home/otherhome/.gradle/caches/transforms-4/cd8a5bc496cd1d80b7a9143d29467cb4/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+475                android:value="androidx.startup" />
+475-->[androidx.emoji2:emoji2:1.4.0] /home/otherhome/.gradle/caches/transforms-4/cd8a5bc496cd1d80b7a9143d29467cb4/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+476            <meta-data
+476-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+477                android:name="androidx.work.WorkManagerInitializer"
+477-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
+478                android:value="androidx.startup" />
+478-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
+479            <meta-data
+479-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/otherhome/.gradle/caches/transforms-4/a2e9b107e05dbca11a01f89718abf593/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+480                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+480-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/otherhome/.gradle/caches/transforms-4/a2e9b107e05dbca11a01f89718abf593/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+481                android:value="androidx.startup" />
+481-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/otherhome/.gradle/caches/transforms-4/a2e9b107e05dbca11a01f89718abf593/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+482            <meta-data
+482-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+483                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+483-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+484                android:value="androidx.startup" />
+484-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+485        </provider>
+486
+487        <service
+487-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+488            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+488-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+489            android:directBootAware="false"
+489-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+490            android:enabled="@bool/enable_system_alarm_service_default"
+490-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+491            android:exported="false" />
+491-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+492        <service
+492-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+493            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+493-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+494            android:directBootAware="false"
+494-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+495            android:enabled="@bool/enable_system_job_service_default"
+495-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+496            android:exported="true"
+496-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+497            android:permission="android.permission.BIND_JOB_SERVICE" />
+497-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+498
+499        <receiver
+499-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+500            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+500-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+501            android:directBootAware="false"
+501-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+502            android:enabled="true"
+502-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+503            android:exported="false" />
+503-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+504        <receiver
+504-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+505            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+505-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+506            android:directBootAware="false"
+506-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+507            android:enabled="false"
+507-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+508            android:exported="false" >
+508-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+509            <intent-filter>
+509-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+510                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+510-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+510-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+511                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+511-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+511-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+512            </intent-filter>
+513        </receiver>
+514        <receiver
+514-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+515            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+515-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+516            android:directBootAware="false"
+516-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+517            android:enabled="false"
+517-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+518            android:exported="false" >
+518-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+519            <intent-filter>
+519-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+520                <action android:name="android.intent.action.BATTERY_OKAY" />
+520-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+520-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+521                <action android:name="android.intent.action.BATTERY_LOW" />
+521-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+521-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+522            </intent-filter>
+523        </receiver>
+524        <receiver
+524-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+525            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+525-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+526            android:directBootAware="false"
+526-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+527            android:enabled="false"
+527-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+528            android:exported="false" >
+528-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+529            <intent-filter>
+529-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+530                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+530-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+530-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+531                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+531-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+531-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+532            </intent-filter>
+533        </receiver>
+534        <receiver
+534-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+535            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+535-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+536            android:directBootAware="false"
+536-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+537            android:enabled="false"
+537-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+538            android:exported="false" >
+538-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+539            <intent-filter>
+539-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+540                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+540-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:150:17-152:50
+540-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:151:21-72
+541            </intent-filter>
+542        </receiver>
+543        <receiver
+543-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+544            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+544-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+545            android:directBootAware="false"
+545-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+546            android:enabled="false"
+546-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+547            android:exported="false" >
+547-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+548            <intent-filter>
+548-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+549                <action android:name="android.intent.action.BOOT_COMPLETED" />
+549-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:148:17-79
+549-->/home/otherhome/conver/Conversations/src/main/AndroidManifest.xml:148:25-76
+550                <action android:name="android.intent.action.TIME_SET" />
+550-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+550-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+551                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+551-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+551-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+552            </intent-filter>
+553        </receiver>
+554        <receiver
+554-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+555            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+555-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+556            android:directBootAware="false"
+556-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+557            android:enabled="@bool/enable_system_alarm_service_default"
+557-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+558            android:exported="false" >
+558-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+559            <intent-filter>
+559-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+560                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+560-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+560-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+561            </intent-filter>
+562        </receiver>
+563        <receiver
+563-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+564            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+564-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+565            android:directBootAware="false"
+565-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+566            android:enabled="true"
+566-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+567            android:exported="true"
+567-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+568            android:permission="android.permission.DUMP" >
+568-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+569            <intent-filter>
+569-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+570                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+570-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+570-->[androidx.work:work-runtime:2.9.0] /home/otherhome/.gradle/caches/transforms-4/69051686e51e598f1ccb5c81c17ca4f8/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+571            </intent-filter>
+572        </receiver>
+573
+574        <uses-library
+574-->[androidx.window:window:1.0.0] /home/otherhome/.gradle/caches/transforms-4/b3f1cb12e292884d46e4ab5c6e640c8d/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+575            android:name="androidx.window.extensions"
+575-->[androidx.window:window:1.0.0] /home/otherhome/.gradle/caches/transforms-4/b3f1cb12e292884d46e4ab5c6e640c8d/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+576            android:required="false" />
+576-->[androidx.window:window:1.0.0] /home/otherhome/.gradle/caches/transforms-4/b3f1cb12e292884d46e4ab5c6e640c8d/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+577        <uses-library
+577-->[androidx.window:window:1.0.0] /home/otherhome/.gradle/caches/transforms-4/b3f1cb12e292884d46e4ab5c6e640c8d/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+578            android:name="androidx.window.sidecar"
+578-->[androidx.window:window:1.0.0] /home/otherhome/.gradle/caches/transforms-4/b3f1cb12e292884d46e4ab5c6e640c8d/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+579            android:required="false" />
+579-->[androidx.window:window:1.0.0] /home/otherhome/.gradle/caches/transforms-4/b3f1cb12e292884d46e4ab5c6e640c8d/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+580
+581        <service
+581-->[androidx.room:room-runtime:2.5.0] /home/otherhome/.gradle/caches/transforms-4/559c1526fc8477eb1845f3f325f583bd/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+582            android:name="androidx.room.MultiInstanceInvalidationService"
+582-->[androidx.room:room-runtime:2.5.0] /home/otherhome/.gradle/caches/transforms-4/559c1526fc8477eb1845f3f325f583bd/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+583            android:directBootAware="true"
+583-->[androidx.room:room-runtime:2.5.0] /home/otherhome/.gradle/caches/transforms-4/559c1526fc8477eb1845f3f325f583bd/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+584            android:exported="false" />
+584-->[androidx.room:room-runtime:2.5.0] /home/otherhome/.gradle/caches/transforms-4/559c1526fc8477eb1845f3f325f583bd/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+585
+586        <receiver
+586-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+587            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+587-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+588            android:directBootAware="false"
+588-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+589            android:enabled="true"
+589-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+590            android:exported="true"
+590-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+591            android:permission="android.permission.DUMP" >
+591-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+592            <intent-filter>
+592-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+593                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+593-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+593-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+594            </intent-filter>
+595            <intent-filter>
+595-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+596                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+596-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+596-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+597            </intent-filter>
+598            <intent-filter>
+598-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+599                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+599-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+599-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+600            </intent-filter>
+601            <intent-filter>
+601-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+602                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+602-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+602-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/otherhome/.gradle/caches/transforms-4/bf14d7ca2efe66eb4a0d4899c830b222/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+603            </intent-filter>
+604        </receiver>
+605    </application>
+606
+607</manifest>

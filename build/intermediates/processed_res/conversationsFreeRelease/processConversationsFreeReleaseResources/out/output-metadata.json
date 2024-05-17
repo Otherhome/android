@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "au.otherhome",
+  "variantName": "conversationsFreeRelease",
+  "elements": [
+    {
+      "type": "UNIVERSAL",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1000800,
+      "versionName": "1.1.8+free",
+      "outputFile": "resources-conversationsFreeUniversalRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86_64"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1000803,
+      "versionName": "1.1.8+free",
+      "outputFile": "resources-conversationsFreeX86_64Release.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1000801,
+      "versionName": "1.1.8+free",
+      "outputFile": "resources-conversationsFreeArmeabi-v7aRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1000804,
+      "versionName": "1.1.8+free",
+      "outputFile": "resources-conversationsFreeArm64-v8aRelease.ap_"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 1000802,
+      "versionName": "1.1.8+free",
+      "outputFile": "resources-conversationsFreeX86Release.ap_"
+    }
+  ],
+  "elementType": "File"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="show_avatar_incoming_call">false</bool>
+    <dimen name="local_video_preview_height">96dp</dimen>
+    <dimen name="local_video_preview_width">128dp</dimen>
+    <dimen name="rtp_session_duration_top_margin">16dp</dimen>
+</resources>
